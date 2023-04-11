@@ -9,14 +9,17 @@ function App() {
 
   return (
     <div className="app">
+
       <Wallet
         balance={balance}
         setBalance={setBalance}
         user={user}
         setUser={setUser}
       />
+      
       <Transfer setBalance={setBalance} user={user} />
     </div>
+    
   );
 }
 
